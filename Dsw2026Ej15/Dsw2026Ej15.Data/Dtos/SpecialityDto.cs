@@ -1,9 +1,8 @@
-﻿namespace Dsw2026Ej15.Data.Dtos
+﻿namespace Dsw2026Ej15.Data.Dtos;
+
+internal class SpecialityDto
 {
-    internal class SpecialityDto
-    {
-        public Guid Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
-    }
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
 }

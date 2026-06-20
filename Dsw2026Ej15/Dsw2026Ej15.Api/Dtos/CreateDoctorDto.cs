@@ -1,9 +1,8 @@
-﻿namespace Dsw2026Ej15.Data.Dtos;
-internal class DoctorDto
+﻿namespace Dsw2026Ej15.Api.Dtos;
+public class CreateDoctorDto
 {
-    public Guid Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public string LicenseNumber { get; set; } = string.Empty;
-    public Guid SpecialityGuid { get; set; }
+    public Guid SpecialityId { get; set; }
     public bool IsActive { get; set; } = true;
 }
